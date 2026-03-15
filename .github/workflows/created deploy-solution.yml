@@ -23,4 +23,4 @@ jobs:
           app-id: ${{ secrets.PP_APP_ID }}
           client-secret: ${{ secrets.PP_CLIENT_SECRET }}
           tenant-id: ${{ secrets.PP_TENANT_ID }}
-          solution-file: contoso_university_core.zip
+          solution-file: out/contoso_university_core.zip
