@@ -16,7 +16,7 @@ jobs:
           solution-file: out/workshopsolution.zip
           solution-folder: contents
           solution-type: Both
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: packed-solution
           path: out/
