@@ -3,7 +3,7 @@ name: Pack Contoso_University_Core
 on:
   push:
     paths:
-      - solutions/workshopsolution
+      - solutions/workshopsolution/**
   workflow_dispatch:
 
 jobs:
