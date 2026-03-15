@@ -5,7 +5,6 @@ name: export-and-branch-solution
 on:
   workflow_dispatch:
     inputs:
-      # Change this value
       solution_name: 'workshopsolution'
         description: 'name of the solution to worked on from Power Platform'
         required: true
