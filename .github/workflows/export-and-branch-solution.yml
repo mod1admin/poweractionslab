@@ -5,7 +5,7 @@ name: export-and-branch-solution
 on:
   workflow_dispatch:
     inputs:
-      solution_name: 'workshopsolution'
+        solution_name: 'workshopsolution'
         description: 'name of the solution to worked on from Power Platform'
         required: true
         default: ALMLab
