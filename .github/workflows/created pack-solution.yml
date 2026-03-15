@@ -15,7 +15,7 @@ jobs:
         with:
           solution-file: out/contoso_university_core.zip
           solution-folder: solutions/workshopsolution
-          solution-type: Both
+          solution-type: Unmanaged
       - uses: actions/upload-artifact@v4
         with:
           name: packed-solution
